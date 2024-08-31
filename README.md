@@ -33,3 +33,12 @@ para todas las pruebas en conjunto en vez de tener que hacerlo para cada prueba
 individual. El uso de esta técnica contribuyo, una vez mas, a un codigo mas
 sencillo y facil de manejar. 
 
+### _Instrucciones para ejecutar pruebas_
+> 1. Crear archivos: data, main, helpers, UrbanRoutesPage
+> 2. Crear variables para los datos necesarios en el archivo data.py
+> 3. Dentro del archivo helpers.py crear el metodo de apoyo para recuperar el codigo sms
+> 4. En el archivo UrbanRoutesPage.py importar el archivo data.py, helpers.py, entre otros y definir la clase UrbanRoutesPage 
+> 5. Define dentro de la clase UrbanRoutesPage los localizadores para los elementos
+de la pagina web y crear los metodos para interactuar con esos elementos
+> 6. En el archivo main.py armar las funciones que utilizan los metodos del archivo
+UrbanRoutesPage.py para hacer las pruebas necesarias
